@@ -79,3 +79,32 @@ class HomeForSale {
     HomeForSale& operator=(const HomeForSale&) = delete;
 };
 ```
+
+C++11 之前是只声明，而不定义，并且将其定义为私有的。类内部的成员和外部都无法使用
+
+```c++
+class HomeForSale {
+private:
+    HomeForSale(const HomeForSale&);
+    HomeForSale& operator=(const HomeForSale&);
+};
+```
+
+上述做法会将发生链接错误，如果想在编译时引发错误，可以使用以下方案.
+
+```c++
+class Uncopyable {
+protected:
+    Uncopyable() {}                 // 允许 derived 对象构造和析构
+    ~Uncopyable() {}
+private:
+    Uncopyable(const Uncopyable&);  // 阻止 derived 拷贝
+    Uncopyable& operator=(const Uncopyable&);
+};
+
+class HomeForSale : private Uncopyable {...};
+```
+
+只要有拷贝 `HomeForSale` 的行为,编译器就会生成默认的 `copy constructor` 和 `copy assignment` 函数，进而调用 `Uncopyable` 对应的函数，从而引发编译错误。
+
+## 条款07. 为多态基类声明 virtual 析构函数
