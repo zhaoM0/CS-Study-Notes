@@ -29,17 +29,24 @@ Brief introduction about the topic and the purpose of this awesome list.
 
 ### Tutorial
 - [LLM101n](https://github.com/karpathy/LLM101n): In this course we will build a Storyteller AI Large Language Model (LLM). 
+- [AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide): Awesome generative ai guide.
 
 #### Book
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/): The official website of the book "Understanding Deep Learning"
 
 ### Code
+- [GPT2 Pytorch](https://github.com/graykode/gpt-2-Pytorch): GPT2-Pytorch with text generator.
+- [LLama3 Meta](https://github.com/meta-llama/llama3): LLama3 official implementation.
 - [LLama3 Chinese Chat](https://github.com/CrazyBoyM/llama3-Chinese-chat): LLama3中文资料合集
-- [Gemma Pytorch](https://github.com/google/gemma_pytorch): The official gemma implementation
 - [TinyLlama](https://github.com/jzhang38/TinyLlama.git): The TinyLlama project aims to pretrain a 1.1B Llama model on 3T tokens.
 - [Llama3.np](https://github.com/likejazz/llama3.np): llama3.np is a pure NumPy implementation for Llama 3 model. 
+- [Llama2.c](https://github.com/karpathy/llama2.c): A inference framework of Llama 2 model in pure C.
+- [Llm.c](https://github.com/karpathy/llm.c): LLMs in simple, pure C/CUDA with no need for 245MB of PyTorch or 107MB of cPython.
 - [Toolformer Pytorch](https://github.com/krahets/hello-algo): Implementation of Toolformer, Language Models That Can Use Tools, by MetaAI
 - [Bert Pytorch](https://github.com/codertimo/BERT-pytorch): Pytorch implementation of Google AI's 2018 BERT, with simple annotation
+- [Gemma Pytorch](https://github.com/google/gemma_pytorch): The official gemma implementation
+- [Gemma.cpp](https://github.com/google/gemma.cpp): A lightweight, standalone C++ inference engine for the Gemma foundation models from Google.
+- [MinBPE](https://github.com/karpathy/minbpe): Minimal, clean code for the (byte-level) Byte Pair Encoding algorithm.
 
 
 ### Computer Vision
@@ -70,14 +77,21 @@ Brief introduction about the topic and the purpose of this awesome list.
 
 #### Code
 - [chicc](https://github.com/rui314/chibicc): chibicc is yet another small C compiler that implements most C11 features. 
+- [PocketPy](https://github.com/pocketpy/pocketpy): pkpy is a lightweight(~15K LOC) Python interpreter for game scripting.
 
 <!-- Comment -->
 ### Concurrent Programming
 - [高性能并行编程与优化](https://github.com/parallel101/course): 课件和补充材料
 
-
+<!-- Comment -->
 ### Data Structure and Algorithm
+
+### Tutorial
 - [Hello Algo](https://github.com/krahets/hello-algo): hello-algo官方Github的主页
+
+### Code
+- [Collections-C](https://github.com/srdja/Collections-C): Collections-C is a library of generic data structures for the C language.
+- [C Algorithms](https://github.com/fragglet/c-algorithms): This is a collection of common CS algorithms which may be used in C projects.
 
 <!-- Comment -->
 ### Tools
