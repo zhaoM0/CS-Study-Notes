@@ -52,7 +52,7 @@ Brief introduction about the topic and the purpose of this awesome list.
 ### Computer Vision
 
 #### Code
-- [From the Tensor to Stable Diffusion](https://github.com/jla524/fromthetensor.git): You wanna be an ML engineer? Well, here's the steps to get good at that.
+- [From the Tensor to Stable Diffusion](https://github.com/jla524/fromthetensor): You wanna be an ML engineer? Well, here's the steps to get good at that.
 - [Text to Video Model From Scratch](https://github.com/FareedKhan-dev/AI-text-to-video-model-from-scratch): Building AI Text to Video Model From Scratch Using Python
 - [Create Stable Diffusion From Scratch](https://github.com/FareedKhan-dev/create-stable-diffusion-from-scratch.git): Github repo.
 - [TextGAN Pytorch](https://github.com/williamSYSU/TextGAN-PyTorch): TextGAN is a pytorch framework for GAN based text generation models
@@ -62,6 +62,7 @@ Brief introduction about the topic and the purpose of this awesome list.
 
 #### Tutorial
 - [Putting the "You" in CPU](https://cpu.land/): what happens when you run a program on your computer?
+- [Simple Computer](https://github.com/djhworld/simple-computer?tab=readme-ov-file): I don't know how CPUs work so I simulated one in code
 
 #### Course
 - [ICS2024](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/index.html): 南大计算机系统基础实验(实验受益匪浅)
